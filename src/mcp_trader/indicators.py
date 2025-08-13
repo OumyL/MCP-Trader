@@ -184,6 +184,7 @@ class TechnicalAnalysis:
         trend_status = TechnicalAnalysis.check_trend_status(df)
         
         #Bull/Bear signal scoring
+        bull_signals = 0
         bear_signals = 0
         total_signals = 0
         
